@@ -1,0 +1,13 @@
+dn: dc=lumpy,dc=eu
+dc: lumpy
+o: LUMPY LDAP server
+description: Root entry for lumpy.eu
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+
+dn: ou=users,dc=lumpy,dc=eu
+ou: users
+description: All users in LUMPY Auth
+objectClass: top
+objectClass: organizationalUnit
